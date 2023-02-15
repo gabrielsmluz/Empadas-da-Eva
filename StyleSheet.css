@@ -1,0 +1,70 @@
+:root {
+    scroll-behavior: smooth;
+  }
+body{
+ font: 16px / 24px "Rubik", sans-serif;
+ padding: 20px;
+ background: linear-gradient(to right,#00AAFF,#00ff6c);
+}
+.pagenamecontainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.pagename{
+  border: solid 5px rgb(16, 99, 171);
+  border-radius: 10px;
+  color: rgb(24, 138, 238);
+  background-color: rgb(15, 37, 60);
+  padding: 5px;
+}
+.empada {
+  display: flex;
+  justify-content:center;
+  color: green;
+}
+#proportions{
+  padding: 5px;
+  border-radius: 5px;
+  border: inset 3px black;
+}
+.parentdiv{
+  display: flex;
+  justify-content: center;
+}
+.parentcolumndiv{
+  display: flex;
+  flex-direction: column;
+}
+.parentrowdiv{
+  display: flex;
+  flex-direction: row;
+}
+.placeholder{
+  background-color: blueviolet;
+  padding: 15px;
+  margin: 50px;
+  height: 250px;
+  width: 500px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  overflow-y: scroll;
+}
+.carditem{
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.cardtitleinput{
+  height: 41.6px;
+}
+.black{
+  color:black;
+}
+.centerrow {
+  display: flex;
+  justify-content:center
+}
